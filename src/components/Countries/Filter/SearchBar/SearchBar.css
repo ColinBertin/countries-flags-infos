@@ -15,7 +15,7 @@ input {
   border: none;
 }
 
-input.dark::placeholder, input.dark:focus {
+input.dark::placeholder, input.dark:focus, input.dark {
   color: var(--light-primary);
 }
 
