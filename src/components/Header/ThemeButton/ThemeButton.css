@@ -1,0 +1,13 @@
+.themeButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  background-color: var(--light-primary);
+  border: none;
+  font-size: 16px;
+}
+
+.themeButton.dark {
+  background-color: var(--dark-primary);
+  color: var(--light-primary);
+}

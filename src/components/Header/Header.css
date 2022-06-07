@@ -1,0 +1,15 @@
+header {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--light-primary);
+}
+
+header.dark {
+  background-color: var(--dark-primary);
+  color: var(--light-primary);
+}
+
+header h1 {
+  font-size: 16px;
+}

@@ -1,0 +1,59 @@
+.countryCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
+}
+
+.countryInfo {
+  padding: 16px;
+}
+
+.infoList {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.country .link {
+  padding: 8px;
+}
+
+
+.countryFlag {
+  margin: 80px auto 24px auto;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.link {
+  text-decoration: none;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  color: var(--dark-primary);
+}
+
+.link.dark {
+  color: var(--light-primary);
+  background-color: var(--dark-primary);
+  font-size: 12px;
+}
+
+ul {
+  padding: 0;
+  margin-bottom: 32px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.country.dark {
+  color: var(--light-primary);
+}
+
+.borderCountry {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
