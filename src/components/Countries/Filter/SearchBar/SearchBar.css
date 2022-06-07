@@ -1,0 +1,25 @@
+.searchBar {
+  min-width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--light-primary);
+}
+
+input {
+  height: 24px;
+  width: 100%;
+  background-color: inherit;
+  border: none;
+}
+
+input.dark::placeholder, input.dark:focus {
+  color: var(--light-primary);
+}
+
+.searchBar.dark {
+  background-color: var(--dark-primary);
+  color: var(--light-primary);
+}
