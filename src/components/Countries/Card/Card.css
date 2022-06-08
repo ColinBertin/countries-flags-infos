@@ -1,7 +1,6 @@
 .card {
   display: grid;
   grid-template-rows: minmax(160px, 1fr) auto;
-  /* width: 100%; */
   overflow: hidden;
   border-radius: 5px;
   background-color: var(--light-primary);

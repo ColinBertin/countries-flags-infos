@@ -25,6 +25,7 @@
 }
 
 .link {
+  max-width: 330px;
   text-decoration: none;
   background-color: var(--light-primary);
   border-radius: 5px;
